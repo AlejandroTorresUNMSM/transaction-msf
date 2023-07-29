@@ -1,10 +1,10 @@
 package com.atorres.nttdata.transactionmsf.controller;
 
-import com.atorres.nttdata.transactionms.model.ReportClient;
-import com.atorres.nttdata.transactionms.model.ResponseAvgAmount;
-import com.atorres.nttdata.transactionms.model.ResponseComission;
-import com.atorres.nttdata.transactionms.model.TransactionDto;
-import com.atorres.nttdata.transactionms.service.ReportService;
+import com.atorres.nttdata.transactionmsf.model.ReportClient;
+import com.atorres.nttdata.transactionmsf.model.ResponseAvgAmount;
+import com.atorres.nttdata.transactionmsf.model.ResponseComission;
+import com.atorres.nttdata.transactionmsf.model.TransactionDto;
+import com.atorres.nttdata.transactionmsf.service.ReportService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
