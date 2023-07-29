@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: transaction-msf-dev
+  cloud:
+    config:
+      uri: http://localhost:8888
+client:
+  ms:
+    url: http://localhost:8080/api/client
+account:
+  ms:
+    url: http://localhost:8081/api/account
+credit:
+  ms:
+    url: http://localhost:8082/api/credit
+debit:
+  ms:
+    url: http://localhost:8084/api/debit
